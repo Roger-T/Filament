@@ -1,0 +1,63 @@
+.formStyle {
+    width: 100+'%';
+    display: flex;
+    justify-content:space-between;
+}
+.boxStyle {
+    width: 70%;
+    height: 4rem;
+}
+.buttonStyle {
+    width: 25%;
+    height: 3rem;
+    margin-left: 1rem;
+    vertical-align: top;
+    background-color:midnightblue;
+    color: white;
+    border-radius: 10px;
+}
+
+.responses div {
+    display: flex;
+}
+
+.human {
+    justify-content: flex-end;
+}
+
+.bot {
+    justify-content: flex-start;
+}
+
+.bot p, .human p {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    width: auto;
+    border-radius: 10px;
+}
+
+.bot p {
+    background-color: lightblue;
+}
+
+.human p {
+    background:darkseagreen;
+}
+
+.analyticsTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.analyticsTable thead {
+    background-color: #aaa9a9;
+}
+
+.analyticsTable tr:nth-child(even) {
+    background-color: rgb(197, 197, 197);
+}
+
+.analyticsTable td {
+    border: 1px solid #313131;
+}
+
